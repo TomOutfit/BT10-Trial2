@@ -17,7 +17,7 @@ public class SpecUser extends User {
     public void setData(String address) {
             setName(getName()+" "+address);
         }
-    public String GetValue() {
+    public String getValue() {
         if (getStatus() == 1) {
             return getName() + "admin";
         } else {
